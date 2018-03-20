@@ -1,0 +1,43 @@
+/** Flexbox Start **/
+
+#forside{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#omos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dagligdagen{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aarstider{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
+.rows{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txt{
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
+.image{
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
+/** Flexbox Slut **/
