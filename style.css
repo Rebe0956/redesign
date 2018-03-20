@@ -1,41 +1,41 @@
 /** Flexbox Start **/
 
-#forside{
+#forside {
     display: flex;
     flex-wrap: wrap;
 }
 
-#omos{
+#om_os {
     display: flex;
     flex-wrap: wrap;
 }
 
-#dagligdagen{
+#dagligdagen {
     display: flex;
     flex-wrap: wrap;
 }
 
-#aarstider{
+#aarstider {
     display: flex;
     flex-wrap: wrap;
 }
 
-.column{
+.column {
     flex-grow: 1;
     flex-basis: 600px;
 }
 
-.rows{
+.rows {
     display: flex;
     flex-wrap: wrap;
 }
 
-.txt{
+.txt {
     flex-grow: 1;
     flex-basis: 600px;
 }
 
-.image{
+.image {
     flex-grow: 1;
     flex-basis: 600px;
 }
