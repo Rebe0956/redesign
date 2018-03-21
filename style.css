@@ -1,6 +1,6 @@
 img {
-    display: block;
     padding: 2vw;
+    border-radius: 50px;
 }
 
 /** Flexbox Start **/
@@ -38,6 +38,7 @@ img {
 .txt {
     flex-grow: 1;
     flex-basis: 600px;
+    padding: 1vw;
 }
 
 .image {
@@ -66,7 +67,7 @@ p {
 
 h1 {
     font-family: 'Indie Flower', cursive;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 h2 {
@@ -92,7 +93,6 @@ h3 {
     justify-content: center;
     padding: 6vw;
 }
-
 
 #praktisk_info {
     text-align: center;
