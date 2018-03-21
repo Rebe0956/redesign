@@ -1,3 +1,8 @@
+img {
+    display: block;
+    padding: 2vw;
+}
+
 /** Flexbox Start **/
 
 #forside {
@@ -40,4 +45,58 @@
     flex-basis: 600px;
 }
 
+.top {
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
+.bottom {
+    flex-grow: 1;
+    flex-basis: 600px;
+}
+
 /** Flexbox Slut **/
+
+/**Font Start **/
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.7em;
+}
+
+/** Font Slut **/
+
+#forside {
+    text-align: center;
+    justify-content: center;
+    padding: 6vw;
+}
+
+#om_os {
+    text-align: center;
+    justify-content: center;
+    padding: 6vw;
+}
+
+
+#praktisk_info {
+    text-align: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+}
