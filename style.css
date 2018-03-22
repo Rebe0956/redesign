@@ -8,15 +8,18 @@ body {
 }
 
 #dagligdagen img {
-    max-width: 800px;
+    max-width: 633px;
     max-height: auto;
     width: 100%;
+    padding-left: 0.5vw;
 }
 
 #traditioner img {
     max-width: 600px;
     max-height: auto;
     width: 100%;
+    padding-top: 0vw;
+    padding-left: 0.5vw;
 }
 
 /*--menu--*/
@@ -124,6 +127,7 @@ body {
 }
 
 
+
 @media screen and (max-width:755px) {
     .menu ul {
         display: flex;
@@ -131,8 +135,6 @@ body {
     }
 
 }
-
-
 
 
 /** Flexbox Start **/
@@ -261,6 +263,11 @@ body {
     flex-basis: 600px;
 }
 
+#om_os .column{
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
 .rows {
     display: flex;
     flex-wrap: wrap;
@@ -320,6 +327,14 @@ h3 {
     font-size: 1.7em;
 }
 
+.tiltop a {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #43722a;
+    font-weight: bold;
+}
+
 /** Font Slut **/
 
 /*YouTube embed (responsiv) start*/
@@ -355,8 +370,16 @@ h3 {
     margin: 5vw;
 }
 
+#dagligdagen p{
+    padding-right: 2vw;
+}
+
 #traditioner {
     margin: 5vw;
+}
+
+#traditioner p{
+    padding-right: 2vw;
 }
 
 #praktisk_info {
