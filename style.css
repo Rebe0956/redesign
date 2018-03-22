@@ -1,6 +1,7 @@
 img {
     padding: 2vw;
     border-radius: 50px;
+
 }
 
 /** Flexbox Start **/
@@ -9,6 +10,11 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+
 
 #om_os {
     display: flex;
@@ -68,7 +74,9 @@ p {
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 5em;
+    padding: 15px;
 }
+
 
 h2 {
     font-family: 'Amatic SC', cursive;
