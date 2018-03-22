@@ -4,15 +4,18 @@ img {
 }
 
 #dagligdagen img {
-    max-width: 800px;
+    max-width: 633px;
     max-height: auto;
     width: 100%;
+    padding-left: 0.5vw;
 }
 
 #traditioner img {
     max-width: 600px;
     max-height: auto;
     width: 100%;
+    padding-top: 0vw;
+    padding-left: 0.5vw;
 }
 
 /*--menu--*/
@@ -26,7 +29,7 @@ img {
     width: 100%;
     top: 0;
     overflow: hidden;
-    background-color: rgba(255, 175, 24, 0.8);
+    background-color: rgba(255, 175, 24, 0.98);
 }
 
 .menu li {
@@ -55,7 +58,7 @@ img {
 
 /** drop down menu **/
 
-<style > .navbar {
+.navbar {
     overflow: hidden;
     background-color: #333;
     font-family: 'Amatic SC', cursive;
@@ -119,12 +122,24 @@ img {
     display: block;
 }
 
-</style >
+
+
+@media screen and (max-width:755px) {
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
 /** Flexbox Start **/
 
 #forside {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 
@@ -153,6 +168,8 @@ img {
 #om_os {
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+
 }
 
 #dagligdagen {
@@ -168,6 +185,11 @@ img {
 .column {
     flex-grow: 1;
     flex-basis: 600px;
+}
+
+#om_os .column{
+    flex-grow: 1;
+    flex-basis: 350px;
 }
 
 .rows {
@@ -238,9 +260,14 @@ h3 {
 /** Font Slut **/
 
 #forside {
-    text-align: center;
+
     justify-content: center;
     padding: 6vw;
+
+}
+
+#forside p {
+    padding-right: 3em;
 }
 
 /*YouTube embed (responsiv) start*/
@@ -276,8 +303,16 @@ h3 {
     margin: 5vw;
 }
 
+#dagligdagen p{
+    padding-right: 2vw;
+}
+
 #traditioner {
     margin: 5vw;
+}
+
+#traditioner p{
+    padding-right: 2vw;
 }
 
 #praktisk_info {
@@ -292,4 +327,5 @@ footer {
     padding: 3px;
     color: black;
     text-align: center;
+    background-color: #ddd;
 }
