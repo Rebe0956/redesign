@@ -4,15 +4,18 @@ img {
 }
 
 #dagligdagen img {
-    max-width: 800px;
+    max-width: 633px;
     max-height: auto;
     width: 100%;
+    padding-left: 0vw;
 }
 
 #traditioner img {
     max-width: 600px;
     max-height: auto;
     width: 100%;
+    padding-top: 0vw;
+    padding-left: 0vw;
 }
 
 /*--menu--*/
@@ -230,7 +233,6 @@ h3 {
 /** Font Slut **/
 
 #forside {
-    text-align: center;
     justify-content: center;
     padding: 6vw;
 }
@@ -268,8 +270,16 @@ h3 {
     margin: 5vw;
 }
 
+#dagligdagen p{
+    padding-right: 2vw;
+}
+
 #traditioner {
     margin: 5vw;
+}
+
+#traditioner p{
+    padding-right: 2vw;
 }
 
 #praktisk_info {
