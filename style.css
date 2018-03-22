@@ -122,7 +122,6 @@ img {
     display: block;
 }
 
-</style >
 /** Flexbox Start **/
 
 #forside {
@@ -171,6 +170,11 @@ img {
 .column {
     flex-grow: 1;
     flex-basis: 600px;
+}
+
+#om_os .column{
+    flex-grow: 1;
+    flex-basis: 350px;
 }
 
 .rows {
