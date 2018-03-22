@@ -139,10 +139,16 @@ img {
     flex-basis: 300px;
 }
 
-#forside .forside_bottom {
-    width: 100%;
+#forside .bottom_rows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
+#forside .bottom_content {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
 
 #om_os {
     display: flex;
