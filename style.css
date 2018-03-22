@@ -55,7 +55,7 @@ img {
 
 /** drop down menu **/
 
-<style > .navbar {
+.navbar {
     overflow: hidden;
     background-color: #333;
     font-family: 'Amatic SC', cursive;
@@ -119,7 +119,18 @@ img {
     display: block;
 }
 
-</style >
+
+@media screen and (max-width:755px) {
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
 /** Flexbox Start **/
 
 #forside {
@@ -258,7 +269,7 @@ h3 {
     padding: 5vw;
 }
 
-#om_os img{
+#om_os img {
     padding-left: 0vw;
     padding-bottom: 0vw;
     width: 95%;
