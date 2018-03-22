@@ -1,6 +1,19 @@
 img {
     padding: 2vw;
     border-radius: 50px;
+
+}
+
+#praktisk_info img{
+    max-width: 600px;
+    max-height: auto;
+    width: 100%;
+}
+
+#traditioner img{
+    max-width: 600px;
+    max-height: auto;
+    width: 100%;
 }
 
 /** Flexbox Start **/
@@ -37,23 +50,28 @@ img {
 
 .txt {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
     padding: 1vw;
 }
 
 .image {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
 }
 
 .top {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
 }
 
 .bottom {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
+}
+
+.test{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /** Flexbox Slut **/
@@ -92,6 +110,10 @@ h3 {
     text-align: center;
     justify-content: center;
     padding: 6vw;
+}
+
+#traditioner{
+    margin: 5vw;
 }
 
 #praktisk_info {
