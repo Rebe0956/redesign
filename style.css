@@ -7,6 +7,13 @@ body {
     background-color: whitesmoke;
 }
 
+.splash {
+
+    padding: 0 30px 1px;
+    background-color: white;
+    border-radius: 40px;
+}
+
 #dagligdagen img {
     max-width: 633px;
     max-height: auto;
@@ -289,6 +296,14 @@ body {
     margin-bottom: 20px;
 }
 
+#traditioner {
+    margin: 5vw;
+}
+
+#traditioner p {
+    padding-right: 2vw;
+}
+
 .column {
     flex-grow: 1;
     flex-basis: 600px;
@@ -397,13 +412,7 @@ h3 {
     width: 95%;
 }
 
-#traditioner {
-    margin: 5vw;
-}
 
-#traditioner p {
-    padding-right: 2vw;
-}
 
 #praktisk_info {
     padding-left: 6vw;
