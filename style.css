@@ -3,6 +3,46 @@ img {
     border-radius: 50px;
 }
 
+/*--menu--*/
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(255, 175, 24, 0.8);
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.menu li a:hover {
+    background-color: rgba(255, 175, 24, 0.98);
+}
+
+.menu a {
+    font-family: 'Amatic SC', bold;
+    font-size: 2.5em;
+    line-height: 20px;
+}
+
+
 /** Flexbox Start **/
 
 #forside {
@@ -68,6 +108,7 @@ p {
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 5em;
+    color: #43722a;
 }
 
 h2 {
