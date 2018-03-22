@@ -141,3 +141,10 @@ h3 {
     padding-right: 6vw;
     padding-bottom: 8vw;
 }
+
+footer {
+    font-size: 1.3em;
+    padding: 3px;
+    color: black;
+    text-align: center;
+}
