@@ -26,7 +26,7 @@ img {
     width: 100%;
     top: 0;
     overflow: hidden;
-    background-color: rgba(255, 175, 24, 0.8);
+    background-color: rgba(255, 175, 24, 0.98);
 }
 
 .menu li {
@@ -136,6 +136,8 @@ img {
 #forside {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 
@@ -164,6 +166,8 @@ img {
 #om_os {
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+
 }
 
 #dagligdagen {
@@ -241,9 +245,14 @@ h3 {
 /** Font Slut **/
 
 #forside {
-    text-align: center;
+
     justify-content: center;
     padding: 6vw;
+
+}
+
+#forside p {
+    padding-right: 3em;
 }
 
 /*YouTube embed (responsiv) start*/
@@ -295,4 +304,5 @@ footer {
     padding: 3px;
     color: black;
     text-align: center;
+    background-color: #ddd;
 }
