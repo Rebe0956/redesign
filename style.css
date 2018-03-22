@@ -227,6 +227,14 @@ h3 {
     font-size: 1.7em;
 }
 
+.tiltop a {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #43722a;
+    font-weight: bold;
+}
+
 /** Font Slut **/
 
 #forside {
@@ -258,7 +266,7 @@ h3 {
     padding: 5vw;
 }
 
-#om_os img{
+#om_os img {
     padding-left: 0vw;
     padding-bottom: 0vw;
     width: 95%;
