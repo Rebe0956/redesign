@@ -187,9 +187,11 @@ body {
     padding-bottom: 25px;
 }
 
-#forside .bottom_content {
+#forside .bottom_content,
+.left {
     flex-grow: 1;
     flex-basis: 300px;
+
 }
 
 #forside .bottom_content,
@@ -425,5 +427,6 @@ footer {
     color: white;
     padding: 3px;
     text-align: center;
-    background-color: rgba(88, 155, 63, 0.71);
+    background-color: rgba(255, 175, 24, 0.98);
+    letter-spacing: 2px;
 }
