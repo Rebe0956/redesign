@@ -7,7 +7,7 @@
     <title>Kong Gulerod</title>
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
 
@@ -22,46 +22,76 @@
     <meta name="theme-color" content="#ffffff">
 
 
+    <!-- link til facebook og insta -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
     <header>
         <nav>
             <div class="menu">
+        <ul>
+            <li><a href="index.html"> Forside </a></li>
+            <li><a href="om_os.html"> Om os </a></li>
+            <li><a href="dagligdagen.html"> Dagligdagen </a></li>
+            <li><a href="traditioner.html"> Traditioner </a></li>
+            <div class="dropdown">
 
+                <button class="dropbtn">Praktisk info
 
-                <a href="index.html"> Forside </a>
-                <a href="om_os.html"> Om os </a>
-                <a href="dagligdagen.html"> Dagligdagen </a>
-                <a href="traditioner.html"> Traditioner </a>
-                <a href="praktisk_info.html">Praktisk info </a>
-
+    </button>
+                <div class="dropdown-content">
+                    <a href="%C3%A5bningstider_&_lukkedage.html">Åbningstider & Lukkedage</a>
+                    <a href="at_starte_i_kong_gulerod.html">At starte i Kong Gulerod</a>
+                    <a href="i_skal_medbringe.html">I skal medbringe</a>
+                    <a href="opskrivning_venteliste.html">Opskrivning/venteliste</a>
+                    <a href="ved_sygdom.html">Ved sygdom</a>
+                    <a href="kontrakten_priser.html">kontrakten/priser</a>
+                </div>
             </div>
+        </ul>
+
+    </div>
+
         </nav>
     </header>
 
     <section id="traditioner">
+
         <h1>Traditioner</h1>
-        <p> I kong Gulerod elsker vi at hygge os. Vi fejrer de traditionelle højtider og skaber derudover vores egne traditioner, som er med til at danne rammen om Kong Gulerods kultur.</p>
+        <p> I Kong Gulerod elsker vi at hygge os. Vi fejrer de traditionelle højtider og skaber derudover vores egne traditioner, som er med til at danne rammen om Kong Gulerods kultur.</p>
+
         <div class="rows">
+
             <div class="txt">
                 <h2> Årstiderne</h2>
-                <p>Vi er ude i alt slags vejr. Mærker regnen, vinden, kulden og solen på vores kinder. Vi besøger forskellige legepladser i nærområdet, grøndalsparken, degnemosen og naturlegeplads ved Bellahøj. Vi samler blade, kastanjer og blomster. Vi bevæger os på kuperet terræn og mærker det kilder i maven når vi gynger og rutsjer. Vi mærker sne, mudder, græs og sand og er vi heldige, får vi lov til gå på æblerov i en nærliggende have. . </p>
+                <p>Vi er ude i alt slags vejr. Mærker regnen, vinden, kulden og solen på vores kinder. Vi besøger forskellige legepladser i nærområdet, grøndalsparken, degnemosen og naturlegeplads ved Bellahøj. Vi samler blade, kastanjer og blomster. Vi bevæger os på kuperet terræn og mærker det kilder i maven når vi gynger og rutsjer. Vi mærker sne, mudder, græs og sand og er vi heldige, får vi lov til gå på æblerov i en nærliggende have.</p>
             </div>
-            <div class="image">
 
+            <div class="image">
+                <img src="assets/paatur_sne.jpg">
             </div>
         </div>
+
 
         <div class="rows">
-            <div class="txt">
-                <h2> Fødselsdag</h2>
-                <p>Vi fejre børnenes fødselsdage med flag og fødselsdagssang. Forældrene er velkomne til at medbring lidt lækkerier barnet kan dele ud. (Helst med et begrænset sukkerindhold). </p>
-            </div>
-            <div class="image">
-                <img src="assets/fødselsdag.jpg">
-            </div>
+
+
+                    <div class="txt">
+                        <h2> Fødselsdag</h2>
+                        <p>Vi fejre børnenes fødselsdage med flag og fødselsdagssang. Forældrene er velkomne til at medbring lidt lækkerier barnet kan dele ud. (Helst med et begrænset sukkerindhold). </p>
+                    </div>
+
+                    <div class="image">
+                    <img src="assets/fødselsdag.jpg">
+                </div>
+
         </div>
+
+
+
 
         <div class="rows">
             <div class="txt">
@@ -71,14 +101,16 @@
 
 
             </div>
-            <div class="image">
-                <img src="assets/fastelavn2.jpg">
-                <img src="assets/maler_fastelavn.jpg">
+
+            <div>
+
+                <div class="test">
+                    <div><img src="assets/fastelavn2.jpg"></div>
+                    <div><img src="assets/maler_fastelavn.jpg"></div>
+                </div>
 
             </div>
         </div>
-
-
 
         <div class="rows">
             <div class="txt">
@@ -89,14 +121,15 @@
             <div class="image"></div>
         </div>
 
-        <div class="rows">
+        <div class="column">
             <div class="txt">
                 <h2> Påske</h2>
                 <p> Vi laver påskepynt og sår karse. I slutningen af ugen holder vi påskefrokost med bl.a. æggemadder og karse. </p>
             </div>
-            <div class="image">
-                <img src="assets/krea.jpg">
-            </div>
+
+
+            <div class="bred"><img src="assets/krea.jpg"></div>
+
         </div>
 
         <div class="rows">
@@ -106,20 +139,28 @@
             </div>
             <div class="image"></div>
         </div>
+
+
         <div class="rows">
+
             <div class="txt">
                 <h2> Kunstprojekt </h2>
                 <p> Fra april starter vi et kunstprojekt op. Vi eksperimenterer med og på forskellige materialer. Vi støtter, inspirere og motivere, men det er et frivilligt projekt og deltagelsen er således på børnenes præmisser. Forløbet resultere i en fernisering, hvor børnenes værker præsenteres. Værker får i med hjem. </p>
             </div>
-            <div class="image">
-                <img src="assets/maling.jpg">
-                <img src="assets/maling2.jpg">
+
+            <div>
+                <div class="test">
+                    <div><img src="assets/maling.jpg"></div>
+                    <div><img src="assets/maling2.jpg"></div>
+                </div>
             </div>
         </div>
+
+
         <div class="rows">
             <div class="txt">
                 <h2> Sommerafslutning </h2>
-                <p> Forældrene møder os på legepladsen til kaffe og forældrenes hjemmebagte kag. Inden vi siger farvel ønsker vi hinanden en rigtig dejlig sommerferie. </p>
+                <p> Forældrene møder os på legepladsen til kaffe og forældrenes hjemmebagte kage. Inden vi siger farvel ønsker vi hinanden en rigtig dejlig sommerferie. </p>
             </div>
             <div class="image"></div>
         </div>
@@ -128,9 +169,9 @@
 
 
     <footer>
-        Rønnebærvej 46 st. 2400 kbh NV. | Tlf: 42205573 | boernehusetkonggulerod@gmail.com | <a href="https://www.facebook.com/Boernehusetkonggulerod">Facebook</a>
+        Rønnebærvej 46 st. 2400 kbh NV. | Tlf: 42205573 | boernehusetkonggulerod@gmail.com | <a href="https://www.facebook.com/Boernehusetkonggulerod"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     </footer>
-
+    <a href="#splash">Gå til toppen</a>
 </body>
 
 </html>
