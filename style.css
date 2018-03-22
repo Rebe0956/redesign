@@ -29,7 +29,7 @@ img {
     width: 100%;
     top: 0;
     overflow: hidden;
-    background-color: rgba(255, 175, 24, 0.8);
+    background-color: rgba(255, 175, 24, 0.98);
 }
 
 .menu li {
@@ -58,7 +58,7 @@ img {
 
 /** drop down menu **/
 
-<style > .navbar {
+.navbar {
     overflow: hidden;
     background-color: #333;
     font-family: 'Amatic SC', cursive;
@@ -122,11 +122,24 @@ img {
     display: block;
 }
 
+
+
+@media screen and (max-width:755px) {
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
 /** Flexbox Start **/
 
 #forside {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 
@@ -155,6 +168,8 @@ img {
 #om_os {
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+
 }
 
 #dagligdagen {
@@ -237,8 +252,14 @@ h3 {
 /** Font Slut **/
 
 #forside {
+
     justify-content: center;
     padding: 6vw;
+
+}
+
+#forside p {
+    padding-right: 3em;
 }
 
 /*YouTube embed (responsiv) start*/
@@ -264,7 +285,7 @@ h3 {
     padding: 5vw;
 }
 
-#om_os img{
+#om_os img {
     padding-left: 0vw;
     padding-bottom: 0vw;
     width: 95%;
@@ -298,4 +319,5 @@ footer {
     padding: 3px;
     color: black;
     text-align: center;
+    background-color: #ddd;
 }
