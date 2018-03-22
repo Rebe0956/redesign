@@ -122,6 +122,9 @@ img {
     display: block;
 }
 
+.a {
+    color: orange;
+}
 
 
 @media screen and (max-width:755px) {
@@ -187,7 +190,7 @@ img {
     flex-basis: 600px;
 }
 
-#om_os .column{
+#om_os .column {
     flex-grow: 1;
     flex-basis: 350px;
 }
@@ -303,7 +306,7 @@ h3 {
     margin: 5vw;
 }
 
-#dagligdagen p{
+#dagligdagen p {
     padding-right: 2vw;
 }
 
@@ -311,7 +314,7 @@ h3 {
     margin: 5vw;
 }
 
-#traditioner p{
+#traditioner p {
     padding-right: 2vw;
 }
 
