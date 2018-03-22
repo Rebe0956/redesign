@@ -1,6 +1,20 @@
 img {
     padding: 2vw;
     border-radius: 50px;
+
+
+}
+
+#dagligdagen img {
+    max-width: 800px;
+    max-height: auto;
+    width: 100%;
+}
+
+#traditioner img {
+    max-width: 600px;
+    max-height: auto;
+    width: 100%;
 }
 
 /*--menu--*/
@@ -115,6 +129,23 @@ img {
     flex-wrap: wrap;
 }
 
+
+#forside .rows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#forside .content {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#forside .forside_bottom {
+    width: 100%;
+}
+
+
 #om_os {
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +173,7 @@ img {
 
 .txt {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
     padding: 1vw;
 }
 
@@ -153,12 +184,17 @@ img {
 
 .top {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
 }
 
 .bottom {
     flex-grow: 1;
-    flex-basis: 600px;
+    flex-basis: 300px;
+}
+
+.test {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /** Flexbox Slut **/
@@ -175,6 +211,7 @@ h1 {
     font-size: 5em;
     color: #43722a;
 }
+
 
 h2 {
     font-family: 'Amatic SC', cursive;
@@ -194,18 +231,46 @@ h3 {
     padding: 6vw;
 }
 
+/*YouTube embed (responsiv) start*/
+
+.responsive {
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /*     16:9 Aspect Ratio */
+}
+
+.responsive iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+}
+
+/*YouTube embed (responsiv) start*/
+
 #om_os {
     text-align: center;
     justify-content: center;
     padding: 6vw;
+    flex-direction: row;
+}
+
+#dagligdagen {
+    margin: 5vw;
+}
+
+#traditioner {
+    margin: 5vw;
 }
 
 #praktisk_info {
-
-    padding-left: 10vw;
-    padding-right: 50vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
     padding-bottom: 8vw;
 }
+
 
 footer {
     font-size: 1.3em;
