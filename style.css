@@ -5,7 +5,7 @@ img {
 }
 
 #dagligdagen img{
-    max-width: 600px;
+    max-width: 800px;
     max-height: auto;
     width: 100%;
 }
@@ -56,7 +56,7 @@ img {
 
 .image {
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 600px;
 }
 
 .top {
@@ -126,3 +126,4 @@ h3 {
     padding-right: 6vw;
     padding-bottom: 8vw;
 }
+
