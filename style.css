@@ -2,17 +2,16 @@ img {
     padding: 2vw;
     border-radius: 50px;
 
-<<<<<<< HEAD
-=======
+
 }
 
-#dagligdagen img{
+#dagligdagen img {
     max-width: 800px;
     max-height: auto;
     width: 100%;
 }
 
-#traditioner img{
+#traditioner img {
     max-width: 600px;
     max-height: auto;
     width: 100%;
@@ -103,7 +102,6 @@ img {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
->>>>>>> origin/master
 }
 
 .dropdown-content a {
@@ -131,9 +129,7 @@ img {
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 
-=======
 #forside .rows {
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +144,7 @@ img {
 #forside .forside_bottom {
     width: 100%;
 }
->>>>>>> origin/master
+
 
 #om_os {
     display: flex;
@@ -196,7 +192,7 @@ img {
     flex-basis: 300px;
 }
 
-.test{
+.test {
     display: flex;
     flex-wrap: wrap;
 }
@@ -213,11 +209,7 @@ p {
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 5em;
-<<<<<<< HEAD
-    padding: 15px;
-=======
     color: #43722a;
->>>>>>> origin/master
 }
 
 
@@ -265,32 +257,24 @@ h3 {
     flex-direction: row;
 }
 
-#dagligdagen{
+#dagligdagen {
     margin: 5vw;
 }
 
-#traditioner{
+#traditioner {
     margin: 5vw;
 }
 
 #praktisk_info {
-
-<<<<<<< HEAD
     padding-left: 6vw;
     padding-right: 6vw;
-=======
-    padding-left: 10vw;
-    padding-right: 50vw;
->>>>>>> origin/master
     padding-bottom: 8vw;
 }
 
-<<<<<<< HEAD
-=======
+
 footer {
     font-size: 1.3em;
     padding: 3px;
     color: black;
     text-align: center;
 }
->>>>>>> origin/master
