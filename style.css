@@ -7,7 +7,7 @@ img {
     max-width: 633px;
     max-height: auto;
     width: 100%;
-    padding-left: 0vw;
+    padding-left: 0.5vw;
 }
 
 #traditioner img {
@@ -15,7 +15,7 @@ img {
     max-height: auto;
     width: 100%;
     padding-top: 0vw;
-    padding-left: 0vw;
+    padding-left: 0.5vw;
 }
 
 /*--menu--*/
