@@ -28,7 +28,7 @@ img {
     width: 100%;
     top: 0;
     overflow: hidden;
-    background-color: rgba(255, 175, 24, 0.8);
+    background-color: rgba(255, 175, 24, 0.98);
 }
 
 .menu li {
@@ -127,6 +127,8 @@ img {
 #forside {
     display: flex;
     flex-wrap: wrap;
+
+
 }
 
 
@@ -149,6 +151,8 @@ img {
 #om_os {
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
+
 }
 
 #dagligdagen {
@@ -277,4 +281,5 @@ footer {
     padding: 3px;
     color: black;
     text-align: center;
+    background-color: #ddd;
 }
