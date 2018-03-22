@@ -192,6 +192,13 @@ body {
     flex-basis: 300px;
 }
 
+#forside .bottom_content,
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
 #forside {
 
     justify-content: center;
@@ -406,6 +413,12 @@ h3 {
     width: 95%;
 }
 
+footer a {
+
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
 
 footer {
     font-size: 1.3em;
