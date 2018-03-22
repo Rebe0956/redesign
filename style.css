@@ -126,6 +126,9 @@ body {
     display: block;
 }
 
+.a {
+    color: orange;
+}
 
 
 @media screen and (max-width:755px) {
@@ -391,7 +394,6 @@ h3 {
     padding-bottom: 0vw;
     width: 95%;
 }
-
 
 #traditioner {
     margin: 5vw;
