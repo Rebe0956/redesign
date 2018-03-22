@@ -10,6 +10,21 @@ img {
     flex-wrap: wrap;
 }
 
+#forside .rows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#forside .content {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#forside .forside_bottom {
+    width: 100%;
+}
+
 #om_os {
     display: flex;
     flex-wrap: wrap;
@@ -87,6 +102,25 @@ h3 {
     justify-content: center;
     padding: 6vw;
 }
+
+/*YouTube embed (responsiv) start*/
+
+.responsive {
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /*     16:9 Aspect Ratio */
+}
+
+.responsive iframe {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+}
+
+/*YouTube embed (responsiv) start*/
 
 #om_os {
     text-align: center;
