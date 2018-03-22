@@ -3,6 +3,10 @@ img {
     border-radius: 50px;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 #dagligdagen img {
     max-width: 800px;
     max-height: auto;
@@ -133,29 +137,48 @@ img {
 
 /** Flexbox Start **/
 
-#forside {
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-
-
 #forside .rows {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    box-sizing: border-box;
+    padding: 0 30px 1px;
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
+
 
 #forside .content {
     flex-grow: 1;
     flex-basis: 300px;
+
+
 }
 
 #forside .bottom_rows {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    box-sizing: border-box;
+    padding: 0 15px 1px;
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border-radius: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #forside .bottom_content {
@@ -163,22 +186,75 @@ img {
     flex-basis: 300px;
 }
 
+#forside {
+
+    justify-content: center;
+    padding: 6vw;
+
+}
+
+#forside p {
+    padding-right: 3em;
+}
+
+
+
+
 #om_os {
     display: flex;
     flex-wrap: wrap;
-    background-color: whitesmoke;
+}
+
+#om_os .column {
+
+    padding: 0 30px 1px;
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 30px;
 
 }
+
+#om_os .bottom {
+
+    padding: 0 30px 1px;
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 30px;
+
+}
+
+
 
 #dagligdagen {
     display: flex;
     flex-wrap: wrap;
 }
 
+#dagligdagen .txt {
+    padding: 0 30px 1px;
+    max-width: 1200px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 30px;
+}
+
+
 #traditioner {
     display: flex;
     flex-wrap: wrap;
 }
+
 
 .column {
     flex-grow: 1;
@@ -188,12 +264,14 @@ img {
 .rows {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .txt {
     flex-grow: 1;
     flex-basis: 300px;
     padding: 1vw;
+
 }
 
 .image {
@@ -243,17 +321,6 @@ h3 {
 }
 
 /** Font Slut **/
-
-#forside {
-
-    justify-content: center;
-    padding: 6vw;
-
-}
-
-#forside p {
-    padding-right: 3em;
-}
 
 /*YouTube embed (responsiv) start*/
 
