@@ -236,9 +236,14 @@ h3 {
 /** Font Slut **/
 
 #forside {
-    text-align: center;
+
     justify-content: center;
     padding: 6vw;
+
+}
+
+#forside p {
+    padding-right: 3em;
 }
 
 /*YouTube embed (responsiv) start*/
