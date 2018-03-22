@@ -112,7 +112,7 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.13);
     z-index: 1;
 }
 
@@ -133,9 +133,7 @@ body {
     display: block;
 }
 
-.a {
-    color: orange;
-}
+
 
 
 @media screen and (max-width:755px) {
@@ -156,8 +154,7 @@ body {
 
     box-sizing: border-box;
     padding: 0 30px 1px;
-    max-width: 1200px;
-    max-width: 900px;
+
     margin: 0 auto;
     position: relative;
     background-color: white;
@@ -181,19 +178,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding: 0 25px 2px;
 
-    box-sizing: border-box;
-    padding: 0 15px 1px;
-    max-width: 1200px;
-    max-width: 900px;
     margin: 0 auto;
     position: relative;
     background-color: white;
     border-radius: 40px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin: 0px;
+    padding-bottom: 25px;
 }
 
 #forside .bottom_content {
@@ -201,20 +192,15 @@ body {
     flex-basis: 300px;
 }
 
-
-
 #forside {
 
     justify-content: center;
-    padding: 6vw;
-
+    padding: 3vw;
 }
 
 #forside p {
-    padding-right: 3em;
+    padding-right: 1.5em;
 }
-
-
 
 
 #om_os {
@@ -225,15 +211,10 @@ body {
 #om_os .column {
 
     padding: 0 30px 1px;
-    max-width: 1200px;
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
     background-color: white;
     border-radius: 40px;
-    padding-left: 30px;
-    margin-bottom: 20px;
-
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #om_os .bottom {
@@ -246,7 +227,6 @@ body {
     background-color: white;
     border-radius: 40px;
     padding-left: 30px;
-
 }
 
 
@@ -265,15 +245,10 @@ body {
 
 #dagligdagen .txt {
     padding: 0 30px 1px;
-    max-width: 1200px;
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
     background-color: white;
     border-radius: 40px;
-    padding-left: 30px;
-    margin: 0px;
-    margin-bottom: 28px;
+    margin-bottom: 25px;
+    padding-left: 40px;
 }
 
 
@@ -285,15 +260,10 @@ body {
 
 #traditioner .txt {
     padding: 0 30px 1px;
-    max-width: 1200px;
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
     background-color: white;
     border-radius: 40px;
-    padding-left: 30px;
-    margin: 0px;
-    margin-bottom: 20px;
+    padding-left: 40px;
+    margin-bottom: 25px;
 }
 
 #traditioner {
@@ -303,6 +273,30 @@ body {
 #traditioner p {
     padding-right: 2vw;
 }
+
+
+
+#praktisk_info {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 8vw;
+}
+
+#praktisk_info .column {
+    max-width: 800px;
+    padding: 0 30px 1px;
+    background-color: white;
+    border-radius: 40px;
+    padding-left: 40px;
+    padding-top: 0.1px;
+    padding-bottom: 17px;
+    margin: 0px;
+    margin-bottom: 25px;
+
+}
+
+
+
 
 .column {
     flex-grow: 1;
@@ -413,31 +407,10 @@ h3 {
 }
 
 
-
-#praktisk_info {
-    padding-left: 6vw;
-    padding-right: 6vw;
-    padding-bottom: 8vw;
-}
-
-#praktisk_info .column {
-    padding: 0 30px 1px;
-    max-width: 1200px;
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
-    background-color: white;
-    border-radius: 40px;
-    padding-left: 30px;
-    margin: 0px;
-    margin-bottom: 20px;
-}
-
-
 footer {
     font-size: 1.3em;
+    color: white;
     padding: 3px;
-    color: black;
     text-align: center;
-    background-color: #ddd;
+    background-color: rgba(88, 155, 63, 0.71);
 }
