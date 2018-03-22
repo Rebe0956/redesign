@@ -254,6 +254,8 @@ h3 {
 
 #om_os img{
     padding-left: 0vw;
+    padding-bottom: 0vw;
+    width: 95%;
 }
 
 #dagligdagen {
