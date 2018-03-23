@@ -1,5 +1,4 @@
 img {
-    padding: 2vw;
     border-radius: 50px;
 }
 
@@ -11,13 +10,16 @@ body {
 
     padding: 0 30px 1px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 0px 0px 50px 50px;
 }
 
 #dagligdagen img {
     max-width: 633px;
     max-height: auto;
     width: 100%;
+    margin-top: 0vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
 
 }
 
@@ -25,8 +27,12 @@ body {
     max-width: 600px;
     max-height: auto;
     width: 100%;
-    padding-top: 0vw;
-    padding-left: 0.5vw;
+
+    margin-top: 0vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+
+
 }
 
 /*--menu--*/
@@ -44,7 +50,7 @@ body {
 }
 
 .menu li {
-    float: left;
+    /*    float: left;*/
 }
 
 .menu li a {
@@ -53,7 +59,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 .menu li a:hover,
@@ -61,13 +66,26 @@ body {
     background-color: rgba(255, 175, 24, 0.98);
 }
 
-.menu a {
+.menu a,
+.dropdown .dropbtn {
     font-family: 'Amatic SC', bold;
     font-size: 2.5em;
     line-height: 20px;
 }
 
+
+
 /** drop down menu **/
+
+.dropdown .dropbtn {
+
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
 
 .navbar {
     overflow: hidden;
@@ -76,31 +94,24 @@ body {
 }
 
 .navbar a {
-    float: left;
+    /*    float: left;*/
     font-size: 2.5em;
     line-height: 20px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    /*    text-align: center;*/
+    /*    padding: 14px 16px;*/
     text-decoration: none;
 }
 
 .dropdown {
+    /*
     float: left;
     overflow: hidden;
+*/
+    text-align: center;
 }
 
-.dropdown .dropbtn {
-    font-size: 2.5em;
-    line-height: 30px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: 'Amatic SC', cursive;
-    margin: 0;
-}
+
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
@@ -111,7 +122,8 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    /*    min-width: 160px;*/
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.13);
     z-index: 1;
 }
@@ -122,7 +134,7 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    /*    text-align: left;*/
 }
 
 .dropdown-content a:hover {
@@ -136,7 +148,7 @@ body {
 
 
 
-@media screen and (max-width:755px) {
+@media screen and (max-width:860px) {
     .menu ul {
         display: flex;
         flex-direction: column;
@@ -144,6 +156,16 @@ body {
 
 }
 
+@media screen and (min-width:860px) {
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+}
 
 /** Flexbox Start **/
 
@@ -158,7 +180,7 @@ body {
     margin: 0 auto;
     position: relative;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -179,11 +201,10 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 0 25px 2px;
-
-    margin: 0 auto;
+    text-align: center;
     position: relative;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     padding-bottom: 25px;
 }
 
@@ -191,8 +212,16 @@ body {
 .left {
     flex-grow: 1;
     flex-basis: 300px;
-
+    margin-top: 1.5vw;
 }
+
+#forside .bottom_content,
+.right {
+    margin-right: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+
 
 #forside .bottom_content,
 a {
@@ -221,7 +250,7 @@ a {
 
     padding: 0 30px 1px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -234,7 +263,7 @@ a {
     margin: 0 auto;
     position: relative;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     padding-left: 30px;
 }
 
@@ -255,9 +284,10 @@ a {
 #dagligdagen .txt {
     padding: 0 30px 1px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     margin-bottom: 25px;
     padding-left: 40px;
+    margin-right: 2vw;
 }
 
 
@@ -270,9 +300,10 @@ a {
 #traditioner .txt {
     padding: 0 30px 1px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     padding-left: 40px;
     margin-bottom: 25px;
+    margin-right: 2vw;
 }
 
 #traditioner {
@@ -295,7 +326,7 @@ a {
     max-width: 800px;
     padding: 0 30px 1px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     padding-left: 40px;
     padding-top: 0.1px;
     padding-bottom: 17px;
@@ -376,6 +407,11 @@ h3 {
     font-size: 1.7em;
 }
 
+.left a {
+    font-size: 1.5em;
+}
+
+
 .tiltop a {
     font-family: 'Amatic SC', cursive;
     font-size: 1.7em;
@@ -403,7 +439,7 @@ h3 {
     left: 0;
 }
 
-/*YouTube embed (responsiv) start*/
+/*YouTube embed (responsiv) slut*/
 
 #om_os {
     padding: 5vw;
@@ -415,6 +451,7 @@ h3 {
     width: 95%;
 }
 
+
 footer a {
 
     padding: 3px;
@@ -422,11 +459,14 @@ footer a {
     text-decoration: none;
 }
 
+
+
 footer {
-    font-size: 1.3em;
+    font-size: 1.7em;
     color: white;
     padding: 3px;
     text-align: center;
     background-color: rgba(255, 175, 24, 0.98);
     letter-spacing: 2px;
+    font-family: 'Amatic SC', cursive;
 }
