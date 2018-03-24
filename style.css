@@ -187,7 +187,7 @@ img {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 0 25px 2px;
-    text-align: center;
+
     position: relative;
     background-color: white;
     border-radius: 50px;
@@ -378,6 +378,11 @@ a {
 /**---------- Fonte ----------**/
 
 p {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.4em;
+}
+
+#praktisk_info li {
     font-family: 'EB Garamond', serif;
     font-size: 1.4em;
 }
