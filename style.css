@@ -186,8 +186,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 0 25px 2px;
-
+    /*    padding: 0 20px 2px;*/
     position: relative;
     background-color: white;
     border-radius: 50px;
@@ -199,6 +198,7 @@ img {
     flex-grow: 1;
     flex-basis: 300px;
     margin-top: 1.5vw;
+    padding-left: 20px;
 }
 
 #forside .bottom_content,
@@ -405,7 +405,7 @@ h3 {
 }
 
 .left a {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 
@@ -415,6 +415,11 @@ h3 {
     text-decoration: none;
     color: #43722a;
     font-weight: bold;
+}
+
+h2 a {
+    padding-left: 15px;
+
 }
 
 
