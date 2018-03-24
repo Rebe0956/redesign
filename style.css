@@ -1,9 +1,7 @@
+/**------- Billeder ------**/
+
 img {
     border-radius: 50px;
-}
-
-body {
-    background-color: whitesmoke;
 }
 
 .splash {
@@ -27,15 +25,17 @@ body {
     max-width: 600px;
     max-height: auto;
     width: 100%;
-
     margin-top: 0vw;
     margin-right: 2vw;
     margin-bottom: 2vw;
-
-
 }
 
-/*--menu--*/
+#om_os img {
+    margin-bottom: 3vw;
+}
+
+
+/**---------- Menu ------------**/
 
 .menu ul {
     display: flex;
@@ -49,8 +49,8 @@ body {
     background-color: rgba(255, 175, 24, 0.98);
 }
 
-.menu li {
-    /*    float: left;*/
+.menu li:hover {
+    background-color: rgba(255, 157, 24, 0.98);
 }
 
 .menu li a {
@@ -59,11 +59,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.menu li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: rgba(255, 175, 24, 0.98);
 }
 
 .menu a,
@@ -75,10 +70,9 @@ body {
 
 
 
-/** drop down menu **/
+/**---------- drop down menu -----------------**/
 
 .dropdown .dropbtn {
-
     border: none;
     outline: none;
     color: white;
@@ -89,40 +83,30 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
     font-family: 'Amatic SC', cursive;
 }
 
 .navbar a {
-    /*    float: left;*/
+
     font-size: 2.5em;
     line-height: 20px;
     color: white;
-    /*    text-align: center;*/
-    /*    padding: 14px 16px;*/
-    text-decoration: none;
 }
 
 .dropdown {
-    /*
-    float: left;
-    overflow: hidden;
-*/
     text-align: center;
 }
 
 
-
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: rgba(255, 175, 24, 0.98);
+    background-color: rgba(255, 175, 24, 0.71);
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    /*    min-width: 160px;*/
     width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.13);
     z-index: 1;
@@ -131,14 +115,13 @@ body {
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     display: block;
-    /*    text-align: left;*/
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 175, 24);
 }
 
 .dropdown:hover .dropdown-content {
@@ -146,14 +129,13 @@ body {
 }
 
 
-
+/**----------- Media Q ------------------**/
 
 @media screen and (max-width:860px) {
     .menu ul {
         display: flex;
         flex-direction: column;
     }
-
 }
 
 @media screen and (min-width:860px) {
@@ -167,7 +149,13 @@ body {
     }
 }
 
-/** Flexbox Start **/
+/**----------- Forside ------------------**/
+
+#forside {
+
+    justify-content: center;
+    padding: 3vw;
+}
 
 #forside .rows {
     display: flex;
@@ -182,7 +170,7 @@ body {
     background-color: white;
     border-radius: 50px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     padding-bottom: 20px;
     margin: 0px;
     margin-bottom: 20px;
@@ -192,8 +180,6 @@ body {
 #forside .content {
     flex-grow: 1;
     flex-basis: 300px;
-
-
 }
 
 #forside .bottom_rows {
@@ -227,23 +213,22 @@ body {
 a {
     text-decoration: none;
     color: black;
-
 }
 
-#forside {
 
-    justify-content: center;
-    padding: 3vw;
-}
 
 #forside p {
     padding-right: 1.5em;
 }
 
 
+
+/**-------------- Om os -----------------**/
+
 #om_os {
     display: flex;
     flex-wrap: wrap;
+    padding: 5vw;
 }
 
 #om_os .column {
@@ -251,22 +236,26 @@ a {
     padding: 0 30px 1px;
     background-color: white;
     border-radius: 50px;
-    margin-top: 25px;
     margin-bottom: 25px;
+}
+
+
+#om_os img {
+    padding-left: 0vw;
+    padding-bottom: 0vw;
+    width: 95%;
 }
 
 #om_os .bottom {
 
-    padding: 0 30px 1px;
-    max-width: 1200px;
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
     background-color: white;
     border-radius: 50px;
-    padding-left: 30px;
+    padding: 1px 30px 1px;
 }
 
+
+
+/**----------- Dagligdagen ------------------**/
 
 #dagligdagen {
     margin: 5vw;
@@ -288,14 +277,11 @@ a {
     margin-bottom: 25px;
     padding-left: 40px;
     margin-right: 2vw;
+
 }
 
 
-#traditioner {
-
-    display: flex;
-    flex-wrap: wrap;
-}
+/**----------- Traditioner ------------------**/
 
 #traditioner .txt {
     padding: 0 30px 1px;
@@ -315,6 +301,7 @@ a {
 }
 
 
+/**---------- Praktisk info ------------------**/
 
 #praktisk_info {
     padding-left: 6vw;
@@ -332,11 +319,10 @@ a {
     padding-bottom: 17px;
     margin: 0px;
     margin-bottom: 25px;
-
 }
 
 
-
+/**----------- Flexboks ------------------**/
 
 .column {
     flex-grow: 1;
@@ -346,6 +332,13 @@ a {
 #om_os .column {
     flex-grow: 1;
     flex-basis: 350px;
+}
+
+
+#traditioner {
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .rows {
@@ -381,9 +374,8 @@ a {
     flex-wrap: wrap;
 }
 
-/** Flexbox Slut **/
 
-/**Font Start **/
+/**---------- Fonte ----------**/
 
 p {
     font-family: 'EB Garamond', serif;
@@ -420,9 +412,8 @@ h3 {
     font-weight: bold;
 }
 
-/** Font Slut **/
 
-/*YouTube embed (responsiv) start*/
+/**-----YouTube embed (responsiv) ---------**/
 
 .responsive {
     height: 0;
@@ -439,18 +430,7 @@ h3 {
     left: 0;
 }
 
-/*YouTube embed (responsiv) slut*/
-
-#om_os {
-    padding: 5vw;
-}
-
-#om_os img {
-    padding-left: 0vw;
-    padding-bottom: 0vw;
-    width: 95%;
-}
-
+/**------- Footer ------**/
 
 footer a {
 
@@ -469,4 +449,10 @@ footer {
     background-color: rgba(255, 175, 24, 0.98);
     letter-spacing: 2px;
     font-family: 'Amatic SC', cursive;
+}
+
+/**------- baggrundsfarve ------**/
+
+body {
+    background-color: whitesmoke;
 }
